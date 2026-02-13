@@ -1,0 +1,81 @@
++-------------------------+-------+---------+-----------+
+| Area Analysis for selection 'Unnamed'                 |
++-------------------------+-------+---------+-----------+
+| Item                    | Total | Missing | Available |
++-------------------------+-------+---------+-----------+
+| Cut Sandstone           |   189 |       0 |         0 |
+| Spruce Slab             |   185 |       0 |         0 |
+| Sandstone               |   163 |       0 |         0 |
+| Stripped Spruce Log     |   130 |       0 |         0 |
+| Spruce Trapdoor         |   109 |       0 |         0 |
+| Smooth Sandstone Stairs |    95 |       0 |         0 |
+| Smooth Sandstone Slab   |    77 |       0 |         0 |
+| Sandstone Stairs        |    55 |       0 |         0 |
+| Spruce Sign             |    54 |       0 |         0 |
+| Spruce Stairs           |    44 |       0 |         0 |
+| Spruce Fence            |    32 |       0 |         0 |
+| Azalea Leaves           |    24 |       0 |         0 |
+| Lantern                 |    16 |       0 |         0 |
+| Oak Leaves              |    15 |       0 |         0 |
+| Dark Oak Slab           |    14 |       0 |         0 |
+| Sandstone Wall          |    12 |       0 |         0 |
+| Dark Oak Sign           |    11 |       0 |         0 |
+| Orange Wool             |    11 |       0 |         0 |
+| Cut Sandstone Slab      |    10 |       0 |         0 |
+| Flowering Azalea Leaves |    10 |       0 |         0 |
+| Red Wool                |    10 |       0 |         0 |
+| Vines                   |    10 |       0 |         0 |
+| Dark Oak Fence          |     9 |       0 |         0 |
+| Spruce Button           |     9 |       0 |         0 |
+| Moss Carpet             |     8 |       0 |         0 |
+| Dead Bush               |     7 |       0 |         0 |
+| Moss Block              |     7 |       0 |         0 |
+| Chain                   |     6 |       0 |         0 |
+| Dark Oak Stairs         |     5 |       0 |         0 |
+| Hanging Roots           |     5 |       0 |         0 |
+| Bookshelf               |     4 |       0 |         0 |
+| Cyan Candle             |     4 |       0 |         0 |
+| Flower Pot              |     4 |       0 |         0 |
+| Red Candle              |     4 |       0 |         0 |
+| String                  |     4 |       0 |         0 |
+| TNT                     |     4 |       0 |         0 |
+| White Banner            |     4 |       0 |         0 |
+| Chest                   |     3 |       0 |         0 |
+| Jungle Log              |     3 |       0 |         0 |
+| Ladder                  |     3 |       0 |         0 |
+| Spruce Door             |     3 |       0 |         0 |
+| Amethyst Cluster        |     2 |       0 |         0 |
+| Block of Copper         |     2 |       0 |         0 |
+| Cauldron                |     2 |       0 |         0 |
+| Cut Copper              |     2 |       0 |         0 |
+| Glass Pane              |     2 |       0 |         0 |
+| Glow Berries            |     2 |       0 |         0 |
+| Gray Carpet             |     2 |       0 |         0 |
+| Large Amethyst Bud      |     2 |       0 |         0 |
+| Oak Stairs              |     2 |       0 |         0 |
+| Yellow Banner           |     2 |       0 |         0 |
+| Allium                  |     1 |       0 |         0 |
+| Barrel                  |     1 |       0 |         0 |
+| Budding Amethyst        |     1 |       0 |         0 |
+| Chiseled Sandstone      |     1 |       0 |         0 |
+| Cobweb                  |     1 |       0 |         0 |
+| Crafting Table          |     1 |       0 |         0 |
+| Dandelion               |     1 |       0 |         0 |
+| Exposed Cut Copper      |     1 |       0 |         0 |
+| Flowering Azalea        |     1 |       0 |         0 |
+| Grass                   |     1 |       0 |         0 |
+| Grass Block             |     1 |       0 |         0 |
+| Green Bed               |     1 |       0 |         0 |
+| Lectern                 |     1 |       0 |         0 |
+| Lever                   |     1 |       0 |         0 |
+| Medium Amethyst Bud     |     1 |       0 |         0 |
+| Oak Pressure Plate      |     1 |       0 |         0 |
+| Oak Sapling             |     1 |       0 |         0 |
+| Polished Basalt         |     1 |       0 |         0 |
+| Red Carpet              |     1 |       0 |         0 |
+| Redstone Comparator     |     1 |       0 |         0 |
+| Trapped Chest           |     1 |       0 |         0 |
+| Warped Roots            |     1 |       0 |         0 |
++-------------------------+-------+---------+-----------+
+| Item                    | Total | Missing | Available |
++-------------------------+-------+---------+-----------+

@@ -1,0 +1,48 @@
+{
+  "tab_enabled": true,
+  "tab_name": "furniture",
+  "replace_tab": "item_group.another_furniture.tab",
+  "tab_stack": { "name": "another_furniture:oak_chair" },
+  "tab_items": [
+    {
+      "name": "existing",
+      "index": 0
+    },
+    {
+      "match_name": "everycomp:.*chair.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*drawer.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*cabinet.*",
+      "hide_old_tab": true
+    },
+        {
+      "match_name": "farmersdelight:.*cabinet.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*table.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*bench.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*shelf.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*flower_box.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*shutter.*",
+      "hide_old_tab": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "tab_enabled": true,
+  "tab_name": "industrial_deco",
+  "replace_tab": "createdeco:props_tab",
+  "tab_stack": { "name": "createdeco:industrial_iron_catwalk_stairs" },
+  "tab_items": [
+    {
+      "name": "existing"
+    },
+    {
+      "match_tab": "itemGroup.createdeco.bricks_tab"
+    }
+  ]
+}

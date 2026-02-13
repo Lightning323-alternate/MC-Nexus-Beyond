@@ -1,0 +1,15 @@
+{
+  "tab_enabled": true,
+  "tab_name": "roofs",
+  "replace_tab": "itemGroup.mcwroofs",
+  "tab_stack": { "name": "mcwroofs:oak_roof" },
+  "tab_items": [
+    {
+      "name": "existing"
+    },
+        {
+      "match_name": "everycomp:.*roof.*",
+      "hide_old_tab": true
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "tab_enabled": true,
+  "tab_name": "bosses",
+  "replace_tab": "cataclysm:cataclysm_item",
+  "tab_stack": { "name": "cataclysm:witherite_ingot" },
+  "tab_items": [
+    {
+      "match_tab": "cataclysm:cataclysm_block",
+      "index": 0
+    },
+    {
+      "match_tab": "cataclysm:cataclysm_item",
+      "index": 0
+    },
+    {
+      "match_tab": "mowziesmobs:mowziesmobs_tab",
+      "index": -62
+    },
+    {
+      "names": [
+        "kubejs:pyrotide_shard",
+        "kubejs:hydronite_shard",
+        "kubejs:witherite_powder",
+        "kubejs:black_netherite_ingot",
+        "kubejs:abyssal_dust",
+        "kubejs:abyssal_ingot",
+        "kubejs:abyssal_pearl",
+        "kubejs:cursium_dust",
+        "kubejs:cursium_pearl",
+        "kubejs:monstrous_dust",
+        "kubejs:monstrous_pearl",
+        "kubejs:monstrous_ingot",
+        "kubejs:ancient_dust",
+        "kubejs:ancient_pearl",
+        "kubejs:void_core_dust",
+        "kubejs:void_ingot",
+        "kubejs:void_pearl",
+        "kubejs:ignitium_powder",
+        "kubejs:ignitium_ingot",
+        "kubejs:ignitium_pearl",
+        "kubejs:coral_pearl",
+        "kubejs:fire_pearl"
+      ],
+      "index": -1
+    }
+  ],
+  "items_to_remove": [
+    {
+      "name": "mowziesmobs:mob_remover"
+    }
+  ]
+}

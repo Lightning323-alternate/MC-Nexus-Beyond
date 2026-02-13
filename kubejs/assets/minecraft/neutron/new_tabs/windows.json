@@ -1,0 +1,23 @@
+{
+  "tab_enabled": true,
+  "tab_name": "windows",
+  "tab_stack": { "name": "rechiseledcreate:oak_window_large" },
+  "tab_items": [
+    {
+      "match_name": "create:.*window.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "createdeco:.*window.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "rechiseledcreate:.*window.*",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*window.*",
+      "hide_old_tab": true
+    }
+  ]
+}

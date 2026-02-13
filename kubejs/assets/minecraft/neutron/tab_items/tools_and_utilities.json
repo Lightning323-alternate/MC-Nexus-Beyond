@@ -1,0 +1,23 @@
+{
+  "tabs": [
+    {
+      "tab_name": "minecraft:tools_and_utilities",
+      "items_to_add": [
+        {
+          "match_tab": "aether:equipment_and_utilities"
+        }
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "itemGroup.ingredients",
+      "items_to_add": [
+        {
+          "match_tab": "aether:ingredients",
+          "index":-94
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

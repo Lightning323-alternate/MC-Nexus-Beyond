@@ -1,0 +1,16 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.spawnEggs",
+      "items_to_add": [
+        {
+          "match_tab": "aether:spawn_eggs"
+        },
+        {
+          "match_name": "deeperdarker:.*spawn_egg"
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

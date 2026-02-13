@@ -1,0 +1,28 @@
+{
+  "tabs": [
+    {
+      "tab_name": "minecraft:natural_blocks",
+      "items_to_add": [
+        {
+          "match_tab": "aether:natural_blocks"
+        },
+        {
+          "match_name": "everycomp:.*hedge",
+          "hide_old_tab": true,
+          "index": -1
+        },
+        {
+          "match_name": "everycomp:.*carpet",
+          "hide_old_tab": true,
+          "index": -1
+        },
+        {
+          "match_tags": ["forge:ores"],
+          "hide_old_tab": true,
+          "index": 58
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

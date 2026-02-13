@@ -1,0 +1,32 @@
+{
+  "tabs": [
+    "itemGroup.lootr",
+    "itemGroup.create_tweaked_controllers.base",
+    "itemGroup.escalated",
+    "itemGroup.escalated.base",
+    "itemGroup.pipez",
+    "aether:spawn_eggs",
+    "aether:redstone_blocks",
+    "aether:ingredients",
+    "aether:natural_blocks",
+    "aether:dungeon_blocks",
+    "aether:functional_blocks",
+    "aether:armor_and_accessories",
+    "create_enchantment_industry:base",
+    "create_power_loader:main",
+    "numismatics:main",
+    "kubejs:tab",
+    "aether:equipment_and_utilities",
+    "rechiseledcreate:rechiseledcreate",
+    "connectedglass:connectedglass",
+    "railways:tracks",
+    "railways:palettes",
+    "thermal:thermal.foods",
+    "aether:food_and_drinks",
+    "createpropulsion:base",
+    "mowziesmobs:mowziesmobs_tab",
+    "cataclysm:cataclysm_block",
+    "createdeco:bricks_tab",
+    "vs_clockwork:clockwork_main"
+  ]
+}

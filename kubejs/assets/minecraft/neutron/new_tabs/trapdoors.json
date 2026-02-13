@@ -1,0 +1,21 @@
+{
+  "tab_enabled": true,
+  "tab_name": "trapdoors",
+  "replace_tab": "mcwtrpdoors:mcwtrpdoors",
+  "tab_stack": { "name": "minecraft:oak_trapdoor" },
+  "tab_items": [
+    {
+      "match_name": "minecraft:.*trapdoor",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*trapdoor.*",
+      "hide_old_tab": true,
+      "index": -1
+    },
+    {
+      "name": "existing",
+       "index": 0
+    }
+  ]
+}

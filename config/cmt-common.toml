@@ -1,0 +1,24 @@
+
+[common]
+	#Minimum reach distance
+	#Range: 5 ~ 128
+	REACH_MIN_RANGE = 5
+	#Maximum reach distance
+	#Range: 5 ~ 256
+	REACH_MAX_RANGE = 128
+	#Default reach distance when we enter creative mode
+	#Range: 5 ~ 256
+	REACH_DEFAULT_RANGE = 32
+
+[client]
+	#The interval in ticks to run replace tool
+	#Range: 1 ~ 256
+	REPLACE_INTERVAL = 1
+	#If we want to invert replace lock. (Default: false)
+	INVERT_REPLACE_LOCK = false
+	#Whether to disable flight inertia
+	DISABLE_FLIGHT_INERTIA = true
+	#Flight speed (vanilla is 0.05)
+	#Range: 0.05 ~ 1.0
+	FLIGHT_SPEED = 0.07
+

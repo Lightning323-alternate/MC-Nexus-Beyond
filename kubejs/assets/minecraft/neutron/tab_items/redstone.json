@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {
+      "tab_name": "minecraft:redstone_blocks",
+      "items_to_add": [ 
+        {
+          "match_tab": "aether:redstone_blocks",
+          "index":20
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

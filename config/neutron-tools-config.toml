@@ -1,0 +1,6 @@
+
+[common]
+	crash_commands = false
+	portal_wait_time = 0
+	hunger_multiplier = 0.5
+

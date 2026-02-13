@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {
+      "tab_name": "minecraft:food_and_drinks",
+      "items_to_add": [
+        {
+          "match_tab": "aether:food_and_drinks",
+          "index":40
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

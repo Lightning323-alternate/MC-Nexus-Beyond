@@ -1,0 +1,11 @@
+{
+  "tab_enabled": true,
+  "tab_name": "electrical",
+  "replace_tab": "createaddition:main",
+  "tab_stack": { "name": "createaddition:electric_motor" },
+  "tab_items": [
+    {
+      "name": "existing"
+    }
+  ]
+}

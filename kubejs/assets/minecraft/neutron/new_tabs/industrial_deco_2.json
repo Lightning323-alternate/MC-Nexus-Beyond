@@ -1,0 +1,24 @@
+{
+  "tab_enabled": true,
+  "tab_name": "industrial_deco_2",
+  "replace_tab": "create:palettes",
+  "tab_stack": { "name": "create:industrial_iron_block" },
+  "tab_items": [
+    {
+      "name": "existing",
+      "index": 0
+    },
+    {
+      "match_name": "rechiseledcreate:(?!.*window)(?!.*chisel).*",
+      "index": -1
+    },
+    {
+      "match_name": "rechiseledcreate:mechanical_chisel",
+      "index": 0
+    },
+    {
+      "match_name": ".*copycat.*",
+      "index": 0
+    }
+  ]
+}

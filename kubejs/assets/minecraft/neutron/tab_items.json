@@ -1,0 +1,102 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.waystones.waystones",
+      "items_to_add": [
+        {
+          "name": "kubejs:warp_core"
+        }
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "itemGroup.buildingBlocks",
+      "items_to_add": [
+        { "name": "kubejs:compressed_cobblestone" },
+        { "name": "kubejs:phantom_dirt" },
+        { "name": "kubejs:phantom_cobblestone" },
+        { "name": "kubejs:phantom_stone" },
+        { "name": "kubejs:phantom_netherrack" },
+        { "name": "kubejs:phantom_end_stone" },
+        { "name": "kubejs:phantom_stone_bricks" },
+        { "name": "kubejs:phantom_sandstone" },
+        { "name": "kubejs:phantom_red_sandstone" },
+        { "name": "kubejs:phantom_snow" }
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "farmersdelight:farmersdelight",
+      "items_to_add": [
+        {
+          "match_tab": "thermal:thermal.foods"
+        }
+      ],
+      "items_to_remove": [
+        {
+          "match_name": "farmersdelight:.*(net|rug|mat|cabinet|rope|canvas|sign|tatami).*"
+        }
+      ]
+    },
+    {
+      "tab_name": "itemGroup.everycomp.everycomp",
+      "items_to_add": [
+        {
+          "match_tags": ["forge:chests"],
+          "index": 0
+        },
+        {
+          "match_tags": ["quark:ladders"],
+          "index": 0
+        },
+        {
+          "match_tags": ["quark:posts"],
+          "index": 0
+        },
+        {
+          "match_tags": ["forge:fences"],
+          "index": 0
+        },
+        {
+          "match_tags": ["forge:fence_gates"],
+          "index": 0
+        },
+        {
+          "match_tags": ["quark:hollow_logs"],
+          "index": 0
+        },
+        {
+          "match_tags": ["minecraft:planks"],
+          "index": 0
+        },
+        {
+          "match_tags": ["minecraft:wooden_slabs"],
+          "index": 0
+        },
+        {
+          "match_tags": ["quark:wooden_vertical_slabs"],
+          "index": 0
+        }
+      ]
+    },
+    {
+      "tab_name": "minecraft:functional_blocks",
+      "items_to_add": [
+        {
+          "match_name": "farmersdelight:(?!.*nether)(?!.*tomato).*(net|rug|mat|cabinet|rope|canvas|sign|tatami).*",
+          "index": 180
+        },
+        {
+          "match_tab": "aether:functional_blocks",
+          "index": -1
+        },
+        {
+          "match_name": "everycomp:.*ladder",
+          "hide_old_tab": true,
+          "index": 79
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

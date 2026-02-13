@@ -1,0 +1,19 @@
+{
+  "tab_enabled": true,
+  "tab_name": "flight",
+  "replace_tab": "vs_clockwork:clockwork_physicalities",
+  "tab_stack": { "name": "vs_clockwork:physics_infuser" },
+  "tab_items": [
+    {
+      "match_tab": "vs_clockwork:clockwork_main"
+    },
+    {
+      "name": "existing",
+      "index": -1
+    },
+    {
+      "match_tab": "createpropulsion:base",
+      "index": -1
+    }
+  ]
+}

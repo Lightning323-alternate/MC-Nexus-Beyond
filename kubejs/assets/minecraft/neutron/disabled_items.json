@@ -1,0 +1,26 @@
+{
+  "items": [
+    "valkyrienskies:area_assembler",
+    "valkyrienskies:connection_checker",
+    "valkyrienskies:physics_entity_creator",
+    "valkyrienskies:test_antigrav",
+    "valkyrienskies:test_chair",
+    "valkyrienskies:test_flap",
+    "valkyrienskies:test_hinge",
+    "valkyrienskies:test_thruster",
+    "valkyrienskies:test_wing",
+    "vs_clockwork:distance_sensor",
+    "vs_clockwork:balloon_casing",
+    "vs_clockwork:blade_controller",
+    "vs_clockwork:wide_propeller_blade",
+    "vs_clockwork:propeller_blade",
+    "createpropulsion:wing",
+    "createpropulsion:copycat_wing",
+    "pipez:energy_pipe",
+    "pipez:fluid_pipe",
+    "pipez:gas_pipe",
+    "pipez:universal_pipe",
+    "pipez:wrench",
+    "quark:gunpowder_sack"
+  ]
+}

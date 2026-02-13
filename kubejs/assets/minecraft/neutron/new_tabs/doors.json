@@ -1,0 +1,21 @@
+{
+  "tab_enabled": true,
+  "tab_name": "doors",
+  "replace_tab": "mcwdoors:mcwbridges",
+  "tab_stack": { "name": "minecraft:oak_door" },
+  "tab_items": [
+    {
+      "match_name": "minecraft:.*door",
+      "hide_old_tab": true
+    },
+    {
+      "match_name": "everycomp:.*_door.*",
+      "hide_old_tab": true,
+      "index": -1
+    },
+    {
+      "name": "existing",
+       "index": 0
+    }
+  ]
+}

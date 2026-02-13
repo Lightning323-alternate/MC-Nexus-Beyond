@@ -1,0 +1,5 @@
+
+[client]
+	#If there should be an overlay when holding circuit components
+	circuitCompOverlay = false
+

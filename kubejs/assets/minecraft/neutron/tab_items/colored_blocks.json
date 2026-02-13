@@ -1,0 +1,13 @@
+{
+    "tabs":[
+        {
+            "tab_name": "minecraft:colored_blocks",
+            "items_to_add":[
+                {
+                    "match_name":"connectedglass:.*"
+                }
+            ],
+            "items_to_remove":[]
+        }
+    ]
+}

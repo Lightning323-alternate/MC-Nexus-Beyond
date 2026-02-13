@@ -1,0 +1,159 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.wood_type]
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.northstar]
+			coiler = true
+			wilter = true
+			argyre = true
+			calorian = true
+
+		[types.wood_type.thermal]
+			rubberwood = true
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.cataclysm]
+			chorus = true
+
+		[types.wood_type.deeperdarker]
+			echo = true
+			bloom = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.northstar]
+			coiler = true
+			argyre = true
+			wilter = true
+
+		[types.leaves_type.thermal]
+			rubberwood = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+#Disables specific entries
+[entries]
+
+	[entries.wood_type]
+
+		[entries.wood_type.mcwdoors]
+			beach_door = true
+			nether_door = true
+			stable_head_door = true
+			barn_door = true
+			mystic_door = true
+			japanese2_door = true
+			waffle_door = true
+			tropical_door = true
+			barn_glass_door = true
+			cottage_door = true
+			four_panel_door = true
+			japanese_door = true
+			western_door = true
+			bark_glass_door = true
+			paper_door = true
+			classic_door = true
+			bamboo_door = true
+			swamp_door = true
+			glass_door = true
+			stable_door = true
+			modern_door = true
+			whispering_door = true
+
+		[entries.wood_type.mcwtrpdoors]
+			ranch_trapdoor = true
+			classic_trapdoor = true
+			bamboo_trapdoor = true
+			tropical_trapdoor = true
+			cottage_trapdoor = true
+			beach_trapdoor = true
+			swamp_trapdoor = true
+			paper_trapdoor = true
+			bark_trapdoor = true
+			barn_trapdoor = true
+			four_panel_trapdoor = true
+			glass_trapdoor = true
+			mystic_trapdoor = true
+			barrel_trapdoor = true
+			barred_trapdoor = true
+			blossom_trapdoor = true
+			whispering_trapdoor = true
+
+		[entries.wood_type.create]
+			window = true
+			window_pane = true
+
+		[entries.wood_type.quark]
+			hollow_log = true
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			vertical_slab = true
+
+		[entries.wood_type.another_furniture]
+			shelf = true
+			bench = true
+			flower_box = true
+			shutter = true
+			table = true
+			drawer = true
+			chair = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.mcwroofs]
+			planks_upper_steep_roof = true
+			top_roof = true
+			lower_roof = true
+			planks_roof = true
+			upper_steep_roof = true
+			steep_roof = true
+			roof = true
+			planks_attic_roof = true
+			upper_lower_roof = true
+			planks_top_roof = true
+			planks_steep_roof = true
+			attic_roof = true
+			planks_upper_lower_roof = true
+			planks_lower_roof = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+

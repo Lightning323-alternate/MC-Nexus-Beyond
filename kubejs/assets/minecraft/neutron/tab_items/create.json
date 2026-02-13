@@ -1,0 +1,22 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.create.base",
+      "items_to_add": [
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "railways:main",
+      "items_to_add": [
+        {
+          "match_tab": "railways:tracks"
+        },
+        {
+          "match_tab":"railways:palettes"
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

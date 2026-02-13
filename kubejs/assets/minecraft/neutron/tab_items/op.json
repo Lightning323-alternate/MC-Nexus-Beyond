@@ -1,0 +1,22 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.op",
+      "items_to_add": [
+        {
+          "name": "kubejs:worldedit_wand",
+          "index": 0
+        },
+        {
+          "name": "kubejs:worldedit_nav",
+          "index": 0
+        },
+        {
+          "match_name": ".*creative.*",
+          "index": -1
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tab_enabled": true,
+  "tab_name": "gasworks",
+  "replace_tab": "vs_clockwork:clockwork_gasses",
+  "tab_stack": { "name": "vs_clockwork:air_compressor" },
+  "tab_items": [
+    {
+      "name": "existing",
+       "index": 0
+    }
+  ]
+}

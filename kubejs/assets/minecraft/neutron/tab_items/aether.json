@@ -1,0 +1,55 @@
+{
+  "tabs": [
+    {
+      "tab_name": "aether:building_blocks",
+      "items_to_add": [
+        {
+          "match_name": "aether:(?!.*boots)(?!.*egg).*(carved|sentry).*"
+        },
+        {
+          "match_name": "aether:.*angelic.*"
+        },
+        {
+          "match_name": "aether:.*pillar.*"
+        },
+        {
+          "match_name": "aether:.*hellfire.*"
+        }
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "aether:functional_blocks",
+      "items_to_add": [
+        {
+          "name": "aether:skyroot_button"
+        },
+        {
+          "name": "aether:holystone_button"
+        },
+        {
+          "name": "aether:skyroot_pressure_plate"
+        },
+        {
+          "name": "aether:holystone_pressure_plate"
+        },
+        {
+          "name": "aether:skyroot_chest_boat"
+        },
+        {
+          "name": "aether:skyroot_door"
+        },
+        {
+          "name": "aether:skyroot_fence_gate"
+        },
+        {
+          "name": "aether:skyroot_trapdoor"
+        },
+        {
+          "name": "aether:enchanted_gravitite"
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

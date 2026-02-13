@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.combat",
+      "items_to_add": [
+        {
+          "match_tab": "aether:armor_and_accessories",
+          "index": -79
+        }
+      ],
+      "items_to_remove": []
+    }
+  ]
+}

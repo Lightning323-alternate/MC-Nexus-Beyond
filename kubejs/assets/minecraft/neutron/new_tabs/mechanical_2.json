@@ -1,0 +1,47 @@
+{
+  "tab_enabled": true,
+  "tab_name": "mechanical_2",
+  "replace_tab": "itemGroup.create_connected.main",
+  "tab_stack": { "name": "create:large_cogwheel" },
+  "tab_items": [
+    {
+      "match_tab": "create_tweaked_controllers:base",
+      "index": 0
+    },
+    {
+      "match_tab": "create_power_loader:main",
+      "index": 1
+    },
+    {
+      "match_tab": "escalated:base"
+    },
+    {
+      "match_tab": "create_enchantment_industry:base"
+    },
+    {
+      "names": [
+        "kubejs:super_xp_housing",
+        "rechiseledcreate:mechanical_chisel",
+        "kubejs:brass_gear",
+        "kubejs:brass_piston",
+        "kubejs:aqua_machine",
+        "kubejs:steel_string",
+        "kubejs:sand_tile",
+        "kubejs:heat_tile",
+        "kubejs:compressed_sand_bar",
+        "kubejs:steering_mechanism",
+        "kubejs:precision_component",
+        "kubejs:precision_machine",
+        "kubejs:wanderlite_dust",
+        "kubejs:wanderlite_ingot"
+      ]
+    },
+    {
+      "name": "existing"
+    },
+    {
+      "match_tab": "numismatics:main",
+      "hide_old_tab": true
+    }
+  ]
+}

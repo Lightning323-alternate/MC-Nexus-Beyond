@@ -1,0 +1,57 @@
+{
+  "tabs": [
+    "minecraft:building_blocks",
+    "minecraft:natural_blocks",
+
+    "minecraft:colored_blocks",
+    "minecraft:functional_blocks",
+    "minecraft:combat",
+    "minecraft:food_and_drinks",
+    "farmersdelight:farmersdelight",
+    "minecraft:ingredients",
+
+    "minecraft:spawn_eggs",
+    "minecraft:tools_and_utilities",
+
+    "minecraft:redstone_blocks",
+    "create:base",
+    "create_connected:main",
+    "createaddition:main",
+    "createdieselgenerators:cdg_creative_tab",
+    "createbigcannons:base",
+    "railways:main",
+
+    "northstar:northstar_blocks",
+    "northstar:northstar_items",
+    "northstar:northstar_tech",
+
+    "vs_clockwork:clockwork_physicalities",
+    "vs_clockwork:clockwork_gasses",
+    "trackwork:base",
+
+    "thermal:thermal.tools",
+    "thermal:thermal.devices",
+    "thermal:thermal.items",
+    "thermal:thermal.blocks",
+
+    "itemGroup.cataclysm.item",
+    "waystones:waystones",
+    "deeperdarker:deeper_darker",
+    "aether:building_blocks",
+
+    "rechiseled:rechiseled",
+    "create:palettes",
+    "createdeco:props_tab",
+
+    "rechiseled:rechiseled",
+
+    "everycomp:everycomp",
+    "itemGroup.mcwroofs",
+    "item_group.another_furniture.tab",
+    "itemGroup.mcwtrpdoors",
+    "itemGroup.mcwdoors",
+    
+
+    "existing"
+  ]
+}

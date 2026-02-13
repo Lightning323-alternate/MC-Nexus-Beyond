@@ -1,0 +1,25 @@
+{
+  "tabs": [
+    {
+      "tab_name": "itemGroup.thermal.devices",
+      "items_to_add": [{ "name": "pipez:item_pipe" }],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "itemGroup.thermal.items",
+      "items_to_add": [
+        { "name": "pipez:basic_upgrade" },
+        { "name": "pipez:improved_upgrade" },
+        { "name": "pipez:advanced_upgrade" },
+        { "name": "pipez:ultimate_upgrade" },
+        { "name": "pipez:infinity_upgrade" }
+      ],
+      "items_to_remove": []
+    },
+    {
+      "tab_name": "itemGroup.thermal.tools",
+      "items_to_add": [{ "name": "pipez:filter_destination_tool" }],
+      "items_to_remove": []
+    }
+  ]
+}

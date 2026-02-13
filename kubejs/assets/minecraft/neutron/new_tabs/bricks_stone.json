@@ -1,0 +1,12 @@
+{
+  "tab_enabled": true,
+  "tab_name": "bricks_stone",
+  "replace_tab": "rechiseled:rechiseled",
+  "tab_stack": { "name": "rechiseled:andesite_brick_pattern" },
+  "tab_items": [
+    {
+      "name": "existing",
+      "index": 0
+    }
+  ]
+}

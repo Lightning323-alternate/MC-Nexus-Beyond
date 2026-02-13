@@ -19,7 +19,7 @@
         {
           "match_tags": ["forge:ores"],
           "hide_old_tab": true,
-          "index": 58
+          "index": 56
         }
       ],
       "items_to_remove": []

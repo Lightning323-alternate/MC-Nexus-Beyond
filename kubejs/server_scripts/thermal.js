@@ -341,7 +341,7 @@ ServerEvents.recipes((event) => {
   ]);
 
   //Combustion Chambers
-  event.shaped(Item.of("tjetpacks:combustion_chamber", 2), [
+  event.shaped(Item.of("tjetpacks:combustion_chamber", 4), [
     "P P",
     "PSP",
     " p "

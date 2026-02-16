@@ -72,7 +72,7 @@ ServerEvents.recipes((event) => {
         Item.of("kubejs:ancient_dust")
     ], "cataclysm:ancient_metal_ingot").processingTime(600);
 
-    event.shaped(Item.of("kubejs:ancient_pearl", 3), [
+    event.shaped(Item.of("kubejs:ancient_pearl", 5), [
         " N ",
         "SPS",
         " N "

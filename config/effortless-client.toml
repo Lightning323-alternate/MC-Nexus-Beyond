@@ -1,7 +1,7 @@
 [render]
 	showBlockPreview = true
 	showOtherPlayersBuild = false
-	maxRenderVolume = 1024
+	maxRenderVolume = 512
 [pattern]
 	transformerPresets = []
 [clipboard]

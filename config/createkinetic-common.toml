@@ -1,10 +1,29 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
+#Should sails be forgiving?
+forgiving_sails = false
+#Keel Strength
+#Range: 0.0 ~ 1.7976931348623157E308
+keel_strength = 4.0
+#Enchanted Ballast Righting Force
+#Range: 0.0 ~ 1.7976931348623157E308
+enchanted_ballast_force = 2.0
+#Ballast Float Strength
+#Range: 0.0 ~ 1.7976931348623157E308
+ballast_strength = 0.0625
+#Buoy Float Strength
+#Range: 0.0 ~ 1.7976931348623157E308
+buoy_strength = 0.125
+#No sail zone (in degrees)
+#Range: 0.0 ~ 360.0
+no_sail_zone = 45.0
 #Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+sail_speed = 20000
+#The maximum linear acceleration at any point on the ship caused by helm torque
+#Range: 0.0 ~ 1.7976931348623157E308
+turn_acceleration = 5.0
+#The maximum distance from center of mass to one end of the ship considered by the turn speed. At it's default of 16, it ensures that really large ships will turn at the same speed as a ship with a center of mass only 16 blocks away from the farthest point in the ship. That way, large ships do not turn painfully slowly
+#Range: 0.0 ~ 1.7976931348623157E308
+max_size_for_turn_speed_penalty = 16.0
+#The maximum linear speed at any point on the ship caused by helm torque
+#Range: 0.0 ~ 1.7976931348623157E308
+turn_speed = 3.0
 

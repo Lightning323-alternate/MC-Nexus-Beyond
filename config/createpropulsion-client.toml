@@ -8,7 +8,7 @@
 [Propeller]
 	#Should fast-rotating propeller blades be blurred. Disable this if you experience visual issues with fast-rotating propellers
 	"Enable blur" = true
-	#Maximum amount of blurred models rendered. Decrease this value if your fps drops when near a lot of propellers.
+	#Maximum amount of blurred blade models rendered. Decrease this value if your fps drops when near a lot of propellers.
 	"Max blur instances" = 64
 	#How slow propeller blades start to become blurry
 	"Sample rate" = 2.0
@@ -18,6 +18,8 @@
 	"Exposure time" = 0.008333333333333333
 	#Angle of the propeller's blade, in degrees
 	"Blade angle" = 10.0
+	#Maximum amount of blurred head models rendered. Decrease this value if your fps drops when near a lot of propellers.
+	"Max head blur instances" = 16
 
 ["Stirling Engine"]
 	#Revolution period of the simulated shaft (affects only piston movement).

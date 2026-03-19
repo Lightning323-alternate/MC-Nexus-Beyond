@@ -1,0 +1,13 @@
+name = "Deep Grass"
+filename = "Deep Grass.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6c1ee5212d3bb016cfa9dc9c51c76a3acf80491"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6536080
+project-id = 1265745

@@ -8372,6 +8372,10 @@ file = "shaderpacks/Sildur's Vibrant Shaders v1.51 Lite.zip"
 hash = "28c8873dd557e6295c4d745eb676b145f1039c173dba26e2db9a159b003a84bd"
 
 [[files]]
+file = "update.sh"
+hash = "d9df10be2b65c25c014fb5395bf85df93d1b5081453cb3757faf9693fe039cb8"
+
+[[files]]
 file = "usercache.json"
 hash = "3eba20c78e3e932c75423e7f08c6c613b28b943cb54ebab46a4ba8dc398eba7a"
 

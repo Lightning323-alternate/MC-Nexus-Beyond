@@ -30,3 +30,4 @@ case $choice in
         echo "Invalid option."
         ;;
 esac
+packwiz refresh

@@ -27,6 +27,7 @@
     "mowziesmobs:mowziesmobs_tab",
     "cataclysm:cataclysm_block",
     "createdeco:bricks_tab",
-    "vs_clockwork:clockwork_main"
+    "vs_clockwork:clockwork_main",
+    "itemGroup.ender_transmission"
   ]
 }

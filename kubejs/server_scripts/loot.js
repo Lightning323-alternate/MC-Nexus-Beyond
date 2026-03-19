@@ -45,11 +45,6 @@ LootJS Loot Types:
 // });
 
 
-const loot_blacklist = [
-  "kubejs:worldedit_wand",
-  "kubejs:worldedit_nav",
-  "lootr:trophy",
-];
 
 /**
  * Remove loot
@@ -72,7 +67,7 @@ LootJS.modifiers((event) => {
           let itemIDString = item.id.toString(); //This is the item name
           // console.log("LOOT: " + itemIDString);
 
-          let block = itemIDString.startsWith("cyclic:") || loot_blacklist.includes(itemIDString);
+          let block = global.lootBlacklist.includes(itemIDString) || global.disabledItems.includes(itemIDString);
           if (block) {
             // console.log("LOOT: Removing loot: " + itemIDString);
             lootToRemove.push(item);

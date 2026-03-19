@@ -8,10 +8,12 @@
 ServerEvents.recipes((event) => {
   event.remove([
     { output: "create_enchantment_industry:printer" },
-    { output: "vs_clockwork:gas_thruster" },
-    { output: "nexus:glowing_helmet" }
+    { output: "vs_clockwork:gas_thruster" }
   ]);
 
+  
+
+  //Clockwork
   event.recipes.create.mechanical_crafting(
     Item.of('vs_clockwork:gas_thruster', 1), [
     'IDI',
@@ -27,14 +29,78 @@ ServerEvents.recipes((event) => {
     c: 'tjetpacks:combustion_chamber',
   });
 
-  event.shaped(Item.of('nexus:glowing_helmet', 1), [
-    ' g ',
-    'gjg',
-    'd d',
+
+
+  //Locometal
+  event.recipes.create.deploying("railways:white_slashed_locometal", ["#forge:stripped_logs", "#forge:plates/iron"]);
+  event.recipes.create.deploying("railways:slashed_locometal", ["#forge:stripped_logs", "createdeco:industrial_iron_sheet"]);
+  event.shaped(Item.of('railways:slashed_locometal', 4), ['ii', 'ii',], { i: 'createdeco:industrial_iron_sheet_metal', });
+  event.shaped(Item.of('railways:white_slashed_locometal', 4), ['ii', 'ii',], { i: 'createdeco:iron_sheet_metal', });
+
+  event.shaped(Item.of('railways:locometal_boiler', 3), [
+    ' i ',
+    'i i',
+    ' i '
   ], {
-    g: 'minecraft:gold_ingot',
-    j: 'mowziesmobs:glowing_jelly',
-    d: 'minecraft:glowstone_dust',
+    i: 'railways:slashed_locometal',
+  });
+  event.shaped(Item.of('railways:brass_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:slashed_locometal',
+    w: 'createaddition:brass_rod'
+  });
+  event.shaped(Item.of('railways:copper_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:slashed_locometal',
+    w: 'createaddition:copper_wire'
+  });
+  event.shaped(Item.of('railways:iron_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:slashed_locometal',
+    w: 'createaddition:iron_wire'
+  });
+
+
+
+  event.shaped(Item.of('railways:white_locometal_boiler', 3), [
+    ' i ',
+    'i i',
+    ' i '
+  ], {
+    i: 'railways:white_slashed_locometal',
+  });
+  event.shaped(Item.of('railways:white_brass_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:white_slashed_locometal',
+    w: 'createaddition:brass_rod'
+  });
+  event.shaped(Item.of('railways:white_copper_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:white_slashed_locometal',
+    w: 'createaddition:copper_wire'
+  });
+  event.shaped(Item.of('railways:white_iron_wrapped_locometal_boiler', 3), [
+    ' i ',
+    'iwi',
+    ' i '
+  ], {
+    i: 'railways:white_slashed_locometal',
+    w: 'createaddition:iron_wire'
   });
 
   //We can reprint enchantments with this
@@ -81,6 +147,21 @@ ServerEvents.recipes((event) => {
   event.recipes.thermal.press('numismatics:cog', ['#forge:dusts/emerald', 'thermal:press_coin_die']);
   event.recipes.shapeless('minecraft:emerald', ['numismatics:cog']);
 
+  //Recycling
+  event.recipes.create.compacting([Item.of('minecraft:iron_ingot', 1)],
+    [
+      Item.of("minecraft:iron_bars", 3)
+    ]).heated();
+
+  event.recipes.create.compacting([Item.of('minecraft:iron_ingot', 1)],
+    [
+      Item.of("quark:grate", 1)
+    ]).heated();
+
+  event.recipes.create.compacting([Item.of('minecraft:iron_ingot', 3)],
+    [
+      Item.of("minecraft:iron_trapdoor", 1)
+    ]).heated();
 
   //Hyper XP core
   event.recipes.create.mixing([Fluid.of("create_enchantment_industry:hyper_experience", 1000)], [Item.of("kubejs:super_xp_housing", 1),]);

@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
   //   }
   // );
 
-  event.recipes.create.compacting([Item.of('northstar:tungsten_ingot', 8)],
+  event.recipes.create.compacting([Item.of('northstar:tungsten_ingot', 16)],
     [
       Item.of("kubejs:heat_tile", 3),
       Item.of("kubejs:black_netherite_ingot", 1),

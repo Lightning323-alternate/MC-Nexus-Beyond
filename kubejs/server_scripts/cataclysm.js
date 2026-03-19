@@ -22,11 +22,12 @@ ServerEvents.recipes((event) => {
     ], "kubejs:black_netherite_ingot").processingTime(700);
 
     //Witherite dust goes into black netherite
-    event.recipes.create.compacting([Item.of('kubejs:black_netherite_ingot', 3)],
+    event.recipes.create.compacting([Item.of('kubejs:black_netherite_ingot', 1)],
         [
-            Item.of("minecraft:netherite_ingot", 1),
+            // Item.of("minecraft:netherite_ingot", 1),
+             Item.of("createbigcannons:nethersteel_ingot", 1),
             "kubejs:witherite_powder",
-            Item.of("create:sturdy_sheet", 8),
+            Item.of("create:sturdy_sheet", 1),
         ]).superheated();
 
 
@@ -72,14 +73,14 @@ ServerEvents.recipes((event) => {
         Item.of("kubejs:ancient_dust")
     ], "cataclysm:ancient_metal_ingot").processingTime(600);
 
-    event.shaped(Item.of("kubejs:ancient_pearl", 5), [
+    event.shaped(Item.of("kubejs:ancient_pearl", 2), [
         " N ",
         "SPS",
         " N "
     ], {
         P: "kubejs:ancient_dust",
-        N: "minecraft:netherite_ingot",
-        S: "minecraft:sandstone"
+        N: "minecraft:netherite_scrap",
+        S: "#forge:sandstone"
     });
 
 

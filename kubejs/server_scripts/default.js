@@ -31,7 +31,24 @@ ServerEvents.loaded((event) => {
  * - Ender Dragon ingot
  */
 
+const flintBlockID = 'supplementaries:flint_block';
+const createDG = 'createdieselgenerators:';
+const eureka = 'vs_eureka:';
+const clockwork = 'vs_clockwork:'
+const mowziesmobs = 'mowziesmobs:';
+
+
+
+global.disabledItems = []
+
+global.lootBlacklist = [
+    "kubejs:worldedit_wand",
+    "kubejs:worldedit_nav",
+    "lootr:trophy",
+];
+
 global.recipeRemovalList = [
+    "minecraft:chain",
     "createdeco:industrial_iron_ingot",
     "minecraft:lodestone",
     "quark:pipe",
@@ -39,6 +56,7 @@ global.recipeRemovalList = [
     "nexus:shield_obsidian",
     "nexus:snowflake",
     "nexus:gem_prismarine",
+    "nexus:glowing_helmet",
     "minecraft:iron_block",
     "minecraft:iron_trapdoor",
     "createbigcannons:cast_iron_block",
@@ -65,36 +83,27 @@ let blacklistPaths = [
     "kubejs/config/disabled_items.json"
 ];
 
-let config = null;
-let finalPath = "";
 
 // Iterate through the paths until a file is successfully read
 for (let path of blacklistPaths) {
-    let attempt = JsonIO.read(path);
-    if (attempt != null) {
-        config = attempt;
-        finalPath = path;
-        break;
+    let config = JsonIO.read(path);
+    if (config != null) {
+        console.log("Successfully read blacklist from: " + path);
+        let configItems = config.items;
+        for (let i = 0; i < configItems.length; i++) {
+            let item = configItems[i];
+            console.log("Adding to removal list: " + item);
+            global.disabledItems.push(item);
+        }
     }
 }
 
-if (config) {
-    console.log("Successfully read blacklist file from: " + finalPath);
-    let configItems = config.items;
-    for (let i = 0; i < configItems.length; i++) {
-        let item = configItems[i];
-        console.log("Adding to removal list: " + item);
-        global.recipeRemovalList.push(item);
-    }
-} else {
-    console.warn("Could not find a valid blacklist JSON in any of the specified paths!");
-}
 
-const flintBlockID = 'supplementaries:flint_block';
-const createDG = 'createdieselgenerators:';
-const eureka = 'vs_eureka:';
-const clockwork = 'vs_clockwork:'
-const mowziesmobs = 'mowziesmobs:';
+
+function pressing_recipe(event, output, input) {
+    event.recipes.thermal.press(output, input);
+    event.recipes.create.pressing([output], [input]);
+}
 
 function customAllowMixing(event, inputsArray, outputItem) {
     // Check if the inputs array is structured as expected (two component lists)
@@ -116,6 +125,61 @@ ServerEvents.recipes((event) => {
     global.recipeRemovalList.forEach(item => {
         event.remove({ output: item });
     });
+    global.disabledItems.forEach(item => {
+        event.remove({ output: item });
+    });
+
+    event.shaped(Item.of('nexus:gem_prismarine', 1), [
+        ' O ',
+        'OSO',
+        ' O ',
+    ], {
+        S: 'kubejs:abyssal_pearl',
+        O: 'minecraft:prismarine_crystals',
+    });
+
+    event.shaped(Item.of('nexus:shield_obsidian', 1), [
+        'OOO',
+        'OSO',
+        ' O ',
+    ], {
+        S: 'nexus:shield_leather',
+        O: 'create:sturdy_sheet',
+    });
+
+	event.shaped(Item.of("minecraft:chain",4),['n','N','n'],{
+	n: 'minecraft:iron_nugget',
+	N: 'minecraft:iron_ingot'
+});
+
+    //The snowflake is obtained from a boss
+    event.shaped(Item.of('nexus:snowflake', 24), [
+        ' P ',
+        'POP',
+        ' P ',
+    ], {
+        P: 'minecraft:ice',
+        O: 'mowziesmobs:ice_crystal',
+    });
+
+    event.recipes.create.mixing(Item.of('nexus:snowflake', 2), [
+        Item.of('minecraft:blue_ice', 4),
+        Item.of('nexus:snowflake', 1),
+    ]);
+
+    event.shaped(Item.of('nexus:glowing_helmet', 1), [
+        ' g ',
+        'gjg',
+        'd d',
+    ], {
+        g: 'minecraft:gold_ingot',
+        j: 'mowziesmobs:glowing_jelly',
+        d: 'minecraft:glowstone_dust',
+    });
+
+
+
+
 
     /**
      * 
@@ -160,20 +224,6 @@ ServerEvents.recipes((event) => {
     /**
      * Redstone pen
      */
-
-    // event.shaped(Item.of("redstonepen:relay", 1), [
-    //   "TCT",
-    //   "CDC",
-    //   "III"
-    // ],
-    //   {
-    //     "C": "minecraft:smooth_stone",
-    //     "T": "minecraft:redstone_torch",
-    //     "D": "minecraft:redstone",
-    //     "I": "minecraft:iron_block",
-    //   }
-    // );
-
     event.shaped(Item.of('redstonepen:control_box', 1), [
         "QRQ",
         "RsR",
@@ -483,38 +533,7 @@ ServerEvents.recipes((event) => {
         }
     );
 
-    event.shaped(Item.of('nexus:gem_prismarine', 1), [
-        ' O ',
-        'OSO',
-        ' O ',
-    ], {
-        S: 'kubejs:abyssal_pearl',
-        O: 'minecraft:prismarine_crystals',
-    });
 
-    event.shaped(Item.of('nexus:shield_obsidian', 1), [
-        'OOO',
-        'OSO',
-        ' O ',
-    ], {
-        S: 'nexus:shield_leather',
-        O: 'create:sturdy_sheet',
-    });
-
-    //The snowflake is obtained from a boss
-    event.shaped(Item.of('nexus:snowflake', 24), [
-        ' P ',
-        'POP',
-        ' P ',
-    ], {
-        P: 'minecraft:ice',
-        O: 'mowziesmobs:ice_crystal',
-    });
-
-    event.recipes.create.mixing(Item.of('nexus:snowflake', 2), [
-        Item.of('minecraft:blue_ice', 4),
-        Item.of('nexus:snowflake', 1),
-    ]);
 
     //Mind as well
     event.shapeless(Item.of('minecraft:glowstone_dust', 12 * 6), [

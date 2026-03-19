@@ -20,6 +20,16 @@ ServerEvents.recipes((event) => {
   ]);
 
   /**
+ * Plates
+ */
+  let thermal_ores = [
+    "nickel", "silver", "lead", "electrum", "aluminum", "tin", "enderium", "lumium", "constantan", "invar", "steel", "brass", "bronze", "signalum", "rose_gold"
+  ]
+  for (let i = 0; i < thermal_ores.length; i++) {
+    event.recipes.create.pressing(["thermal:" + thermal_ores[i] + "_plate"], ["thermal:" + thermal_ores[i] + "_ingot"]);
+  }
+
+  /**
    * New recipes
    */
   event.recipes.create.deploying('kubejs:steel_string', ['minecraft:string', 'createbigcannons:cast_iron_nugget']);
@@ -187,10 +197,10 @@ ServerEvents.recipes((event) => {
   });
 
   //This is only used for the drill, so it makes sense to add diamond
-  event.recipes.create.mechanical_crafting('thermal:drill_head', [
+  // event.recipes.create.mechanical_crafting
+  event.shaped('thermal:drill_head', [
     ' D ',
-    'DDD',
-    'iii',
+    'ici',
     'ici'
   ], {
     c: 'minecraft:copper_ingot',
@@ -211,7 +221,7 @@ ServerEvents.recipes((event) => {
     d: 'thermal:drill_head',
     r: 'thermal:rf_coil',
     B: 'kubejs:black_netherite_ingot',
-    X:  drillSheetMaterial,
+    X: drillSheetMaterial,
     t: 'thermal:invar_gear',
     P: 'kubejs:precision_machine',
     R: 'thermal:cured_rubber',
@@ -231,7 +241,7 @@ ServerEvents.recipes((event) => {
     d: 'thermal:saw_blade',
     r: 'thermal:rf_coil',
     t: 'thermal:invar_gear',
-    X:  drillSheetMaterial,
+    X: drillSheetMaterial,
     P: 'create:precision_mechanism',
     R: 'thermal:cured_rubber',
   });
@@ -341,7 +351,7 @@ ServerEvents.recipes((event) => {
   ]);
 
   //Combustion Chambers
-  event.shaped(Item.of("tjetpacks:combustion_chamber", 4), [
+  event.shaped(Item.of("tjetpacks:combustion_chamber", 2), [
     "P P",
     "PSP",
     " p "

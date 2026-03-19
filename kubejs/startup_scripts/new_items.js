@@ -62,18 +62,18 @@ StartupEvents.registry("item", (event) => {
   //   .displayName("Durable Fabric")
   //   .maxStackSize(64);
 
-  event
-    .create("steering_mechanism")
-    .displayName("Steering Mechanism")
-    .maxStackSize(64);
+  // event
+  //   .create("steering_mechanism")
+  //   .displayName("Steering Mechanism")
+  //   .maxStackSize(64);
 
-  event
-    .create('incomplete_steering_mechanism', 'create:sequenced_assembly')
-    .displayName("Incomplete Steering Mechanism");
+  // event
+  //   .create('incomplete_steering_mechanism', 'create:sequenced_assembly')
+  //   .displayName("Incomplete Steering Mechanism");
 
-  event
-    .create('incomplete_combustion_chamber', 'create:sequenced_assembly')
-    .displayName("Incomplete Combustion Chamber");
+  // event
+  //   .create('incomplete_combustion_chamber', 'create:sequenced_assembly')
+  //   .displayName("Incomplete Combustion Chamber");
 
   event
     .create("brass_piston")
@@ -93,10 +93,6 @@ StartupEvents.registry("item", (event) => {
     .create("wanderlite_ingot")
     .displayName("Wanderlite Ingot")
     .maxStackSize(64);
-  // event
-  //   .create("wanderlite_jewel")
-  //   .displayName("Wanderlite Jewel")
-  //   .maxStackSize(64);
   /**
    * 
    * 

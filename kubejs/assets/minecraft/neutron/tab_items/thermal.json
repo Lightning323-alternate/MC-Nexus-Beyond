@@ -25,13 +25,6 @@
         }
       ],
       "items_to_remove": []
-    },
-    {
-      "tab_name": "itemGroup.thermal.tools",
-      "items_to_add": [
-        { "name": "pipez:filter_destination_tool", "index": 19 }
-      ],
-      "items_to_remove": []
     }
   ]
 }
